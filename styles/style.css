@@ -1,0 +1,119 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    overscroll-behavior: contain;
+    touch-action: none;
+    height: 100%;
+    background-color: #dadde0;
+}
+
+#wrapper{
+    height: 90%;
+    width: 100%;
+    position: relative;
+    overscroll-behavior: contain;
+    touch-action: none;
+}
+
+#wrapper canvas{
+    top: 0;
+    left: 0;
+    position: absolute;
+    overscroll-behavior: contain;
+    touch-action: none;
+}
+
+#options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    background-color: #c97eec;
+}
+
+#options > * {
+    margin: auto;
+}
+
+a {
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: block;
+    width: 50%;
+    text-decoration: none;
+    text-align: center;
+    border: solid 1px #c692df;
+    border-radius: 10px;
+}
+
+a:hover{
+    color:#B8D0EB;
+    background-color: #b786ce;
+}
+
+h1{
+    color: #be81da;
+    text-align: center;
+}
+
+select:hover {
+    background-color: yellow;
+    border-radius: 3px;
+    box-shadow: rgba(187, 4, 4, 0.7) 0 1px 0 0 inset;
+    
+  }
+
+  #picker{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+  }
+
+
+
+.button-8 {
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #39739d;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-8:hover,
+.button-8:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.button-8:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-8:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}

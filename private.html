@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=0, initial-scale=1.0, user-scalable=no">
+    <title>Canvas</title>
+    <link rel="stylesheet" href=".\styles\style.css">
+    <script type="text/javascript" src=".\scripts\script.js"></script>
+    <script type="text/javascript" src=".\scripts\shapes.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <canvas id="canvas"></canvas>
+        <canvas id="ghost" width="100vh" height="100"></canvas>
+    </div>
+    <div id="options">
+        <input type="color" id="picker">
+        <input type="range" id="range" min="1" max="20">
+        <select id="mode">
+            <option value="rysuj">Rysuj</option>
+            <option value="linia">Linia</option>
+            <option value="kolo">Koło</option>
+        </select>
+        <button class="button-8" onclick="undo()">Cofnij</button>
+        <button class="button-8" onclick="clea()">Wyczyść</button>
+    </div>
+</body>
+</html>
